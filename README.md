@@ -55,10 +55,10 @@ This project is a simple Task Management Application developed using Node.js, Mo
 
 ### Environment Variables
 
-Update the `.env` file in the `back-end` directory with the following content:
+Create the `.env` file in the `back-end` directory with the following content:
 PORT=5000
-MONGO_URI=mongodb://localhost:27017/TaskManagmentSystem
-JWT_SECRET=ZQ1t02jEde
+MONGO_URI=your_mongo_db_connection_path
+JWT_SECRET=your_jwt_secret
 
 
 ### Running the Application
